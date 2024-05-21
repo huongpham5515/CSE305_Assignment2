@@ -48,7 +48,7 @@ public class ShortTerm implements contractBuilder {
 
     @Override
     public Contract build() {
-        return new Contract(ContractID, PropertyID, TenantID, RentAmount, SignContract);
+        return new Contract(ContractID, PropertyID, TenantID, RentAmount);
     }
 
 }

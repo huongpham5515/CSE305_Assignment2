@@ -15,11 +15,10 @@ public class Contract {
    String BuildRentAmount;
    Contract SignContract;
 
-    public Contract(String BuildContractID, String BuildPropertyID, String BuildTenantID, String BuildRentAmount, Contract SignContract) {
+    public Contract(String BuildContractID, String BuildPropertyID, String BuildTenantID, String BuildRentAmount) {
         this.BuildContractID = BuildContractID;
         this.BuildPropertyID = BuildPropertyID;
         this.BuildTenantID = BuildTenantID;
         this.BuildRentAmount = BuildRentAmount;
-        this.SignContract = SignContract;
     }
 }
